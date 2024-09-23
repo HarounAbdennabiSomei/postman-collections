@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "2bc58245-ab04-4f77-adf4-2e388db8b4b2",
+		"name": "SmartPlanning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38305056"
+	},
+	"item": [
+		{
+			"name": "ping FrontEnd",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Planning_UrlFrontEnd}}/ping",
+					"host": [
+						"{{Planning_UrlFrontEnd}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ping BackEnd",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Planning_UrlBackEnd}}/ping",
+					"host": [
+						"{{Planning_UrlBackEnd}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cellules GetAll",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{TokenWaterp}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{},
+					{}
+				],
+				"url": {
+					"raw": "{{Planning_UrlFrontEnd}}/api/v2/cellules",
+					"host": [
+						"{{Planning_UrlFrontEnd}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"cellules"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Migration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdExterne\" : \"{{idInterventionExterne}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Planning_UrlBackEnd}}/api/v2/interventions/migrations",
+					"host": [
+						"{{Planning_UrlBackEnd}}"
+					],
+					"path": [
+						"api",
+						"v2",
+						"interventions",
+						"migrations"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
