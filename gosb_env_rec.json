@@ -1,0 +1,27 @@
+{
+	"id": "b22f3f50-1e29-48d6-8376-a6244360deb2",
+	"name": "GOSB REC",
+	"values": [
+		{
+			"key": "TokenWaterp",
+			"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjB6c2Q4djRJNW5DWTE5VGJDOWtybmZPN19WbyIsImtpZCI6IjB6c2Q4djRJNW5DWTE5VGJDOWtybmZPN19WbyJ9.eyJpc3MiOiJodHRwczovL2lkdC1yZWMuc29tZWkuZnIiLCJhdWQiOiJodHRwczovL2lkdC1yZWMuc29tZWkuZnIvcmVzb3VyY2VzIiwiZXhwIjoxNzI3MTM4OTYxLCJuYmYiOjE3MjcwOTU3NjEsImNsaWVudF9pZCI6InBsYW5uaW5nX3NlcnZlcl9HT1NCIiwic2NvcGUiOlsibmFtZSIsIm9wZW5pZCIsInJlcG9ydHNlcnZlciJdLCJzdWIiOiJzdmNfcGxhbm5pbmciLCJhdXRoX3RpbWUiOjE3MjcwOTU3NjEsImlkcCI6Imlkc3J2Iiwic2hhcmVkLnRlbmFudF9pZCI6IkdPU0IiLCJpZCI6InN2Y19wbGFubmluZyIsImVtYWlsIjoibm8tcmVwbHlAc29tZWkuZnIiLCJuYW1lIjoiUGxhbm5pbmcgQ29tcHRlIFNlcnZpY2UiLCJzaGFyZWQubm9tIjoiQ29tcHRlIFNlcnZpY2UiLCJzaGFyZWQucHJlbm9tIjoiUGxhbm5pbmciLCJzaGFyZWQuZW1haWwiOiJuby1yZXBseUBzb21laS5mciIsInNoYXJlZC5jb21wdGVfc2VydmljZSI6InRydWUiLCJzaGFyZWQuaW5hY3RpZiI6ImZhbHNlIiwiYW1yIjpbInBhc3N3b3JkIl19.oX12kRk8OCip_13ELkBcKaTz_kNZGBzcH-M7cDQzHo2H_pFfMODaYMdEI2PWLhHPH4jLpGsuezxzggAoslB3UX8iEZhtVFwlIeEKY3_Ey2lQjiw6ifujyyz80OTMKgX6sSqmi9RYKxK0WTe-YWG5TjfjZCtTGlknN8ubbchRQ6WzqM3NHxppAC9D-NskwpJmcs5pENRT3eD8vUyNN8nzW6VxTS-_Ku7YkkKFGok3ZgmXTgaf82hz3CcI7XTcjD1eQdd4FCecUI7snBjoyb2-YVa6Jz4h_9A02aeCenFXbcQKb7nJ2zBRabdxYhfX7liX-pcDdxwuG9XpY5C58TeUsw\"",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Planning_UrlFrontEnd",
+			"value": "https://planning-gosb-rec.somei.fr",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Planning_UrlBackEnd",
+			"value": "http://rec-svc-planning-gosb",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-09-23T13:35:05.062Z",
+	"_postman_exported_using": "Postman/11.13.0"
+}
